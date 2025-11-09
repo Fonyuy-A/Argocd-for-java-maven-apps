@@ -19,3 +19,6 @@ This repository contains Kubernetes manifests for deploying a Java Maven applica
 1. Make sure the webapp namespace exists:
    ```bash
    kubectl create namespace webapp
+2.  Apply the Argo CD application:
+   ```bash
+   kubectl apply -f argocd-app.yaml

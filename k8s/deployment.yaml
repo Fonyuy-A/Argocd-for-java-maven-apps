@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: fonyuya/java-maven-app:latest
+        image: fonyuya/java-maven-app:1.6
         ports:
         - containerPort: 3000
         env:
